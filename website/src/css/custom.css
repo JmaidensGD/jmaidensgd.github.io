@@ -37,6 +37,9 @@
   display: flex;
   background-blend-mode: darken;
   background-attachment: fixed;
+  text-shadow: 0rem 0rem 1rem #000000;
+  user-select: none;
+  pointer-events: none;
 }
 
 .hero {
@@ -47,6 +50,9 @@
   display: flex;
   background-blend-mode: darken;
   background-attachment: fixed;
+  text-shadow: 0rem 0rem 1rem #000000;
+  user-select: none;
+  pointer-events: none;
 }
 
 .hero__title {
