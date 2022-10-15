@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import styles from "./Picture.module.css";
 import Graphics from '@site/static/img/Graphics.png';
 
+
+
 function Button(props) {
   return (
     <article className={styles.article}>

@@ -2,6 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Games from '@site/static/img/Games.png';
@@ -9,6 +11,7 @@ import Models from '@site/static/img/Models.png';
 import Renders from '@site/static/img/Renders.png';
 import Graphics from '@site/static/img/Graphics.png';
 import styles from './index.module.css';
+import styles2 from './index.module.css';
 import Button from '@site/src/components/Button';
 import { render } from 'react-dom';
 
@@ -35,10 +38,10 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <div style={{display: "grid", gridTemplateColumns: "repeat(2,1fr)", gridGap: 30}} className={styles.homeButtonContainer}>
-          <Button image = {Games} text = "Games" page = "Docs/Games"/>
-          <Button image = {Models} text = "Models" page = "Docs/Models"/>
-          <Button image = {Renders} text = "Renders" page = "Docs/Render"/>
-          <Button image = {Graphics} text = "Graphics" page = "Docs/Graphics"/>
+          <AnimationOnScroll animateIn="animate__fadeInLeft"><Button image = {Games} text = "Games" page = "Docs/Games"/></AnimationOnScroll>
+          <AnimationOnScroll animateIn="animate__fadeInRight"><Button image = {Models} text = "Models" page = "Docs/Models"/></AnimationOnScroll>
+          <AnimationOnScroll animateIn="animate__fadeInLeft"><Button image = {Renders} text = "Renders" page = "Docs/Render"/></AnimationOnScroll>
+          <AnimationOnScroll animateIn="animate__fadeInRight"><Button image = {Graphics} text = "Graphics" page = "Docs/Graphics"/></AnimationOnScroll>
         </div>
       </main>
     </Layout>
