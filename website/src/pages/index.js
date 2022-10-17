@@ -39,7 +39,7 @@ export default function Home() {
       <main>
         <div style={{display: "grid", gridTemplateColumns: "repeat(2,1fr)", gridGap: 30}} className={styles.homeButtonContainer}>
           <AnimationOnScroll animateIn="animate__fadeInLeft"><Button image = {Games} text = "Games" page = "Docs/Games"/></AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeInRight"><Button image = {Models} text = "Models" page = "Docs/Models"/></AnimationOnScroll>
+          <AnimationOnScroll animateIn="animate__fadeInRight"><Button image = {Models} text = "Models" page = "Models"/></AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInLeft"><Button image = {Renders} text = "Renders" page = "Docs/Render"/></AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInRight"><Button image = {Graphics} text = "Graphics" page = "Docs/Graphics"/></AnimationOnScroll>
         </div>

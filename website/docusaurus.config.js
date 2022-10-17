@@ -61,12 +61,12 @@ const config = {
             label: 'Games', 
             position: 'left'
           },
-          {
-            href: 'https://github.com/JmaidensGD/jmaidensgd.github.io',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       footer: {
         style: 'dark',
