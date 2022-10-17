@@ -37,7 +37,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <div style={{display: "grid", gridTemplateColumns: "repeat(2,1fr)", gridGap: 30}} className={styles.homeButtonContainer}>
+        <div className={styles.homeButtonContainer}>
           <AnimationOnScroll animateIn="animate__fadeInLeft"><Button image = {Games} text = "Games" page = "Docs/Games"/></AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInRight"><Button image = {Models} text = "Models" page = "Models"/></AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInLeft"><Button image = {Renders} text = "Renders" page = "Docs/Render"/></AnimationOnScroll>
