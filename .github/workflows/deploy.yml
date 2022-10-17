@@ -1,2 +1,2 @@
-- name: Docusaurus BuildDeploy Action
-  uses: redkubes/docusaurus-deploy-action@v1.2
+name: Docusaurus BuildDeploy Action
+uses: redkubes/docusaurus-deploy-action@v1.2
